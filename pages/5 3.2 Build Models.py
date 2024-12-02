@@ -1,5 +1,5 @@
 import streamlit as st
-import sklearn
+import scikit-learn as sklearn
 
 st.markdown("""
 Exploratory data analysis helps data scientists understand the data and identify potential quality issues in the data. While data scientists often glean important insights via data visualization, they often rely **machine learning (ML) models** to learn more comprehensive patterns in the data (which is often known as machine learning model); and then use the patterns learned to make predictions or forecasts. 

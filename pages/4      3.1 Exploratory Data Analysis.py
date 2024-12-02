@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-import streamlit as st
-import pandas as pd
-import altair as alt
-from urllib.error import URLError
-import matplotlib.pyplot as plt
-
 st.set_page_config(page_title="Exploratory Data Analysis", page_icon="📊")
 
 st.markdown("# 🔍 Exploratory Data Analysis")

@@ -9,6 +9,10 @@ import streamlit as st
 
 # In[3]:
 
+with st.sidebar:
+    st.image("logo.png")
+    st.success("Select a section above.")
+    
 st.set_page_config(
     page_title="Data Science Made Easy for High School Students",
     page_icon="📚",
@@ -17,9 +21,7 @@ st.set_page_config(
 st.write("# Welcome to Data Science for Teens! 👋")
 st.image("kids love ds.png")
 
-with st.sidebar:
-    st.image("logo.png")
-    st.success("Select a section above.")
+
 
 st.markdown(
     """

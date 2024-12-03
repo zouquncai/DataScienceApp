@@ -16,7 +16,10 @@ st.set_page_config(
 
 st.write("# Welcome to Data Science for Teens! 👋")
 st.image("kids love ds.png")
-st.sidebar.success("Select a section above.")
+
+with st.sidebar:
+    st.image("logo.png")
+    st.success("Select a section above.")
 
 st.markdown(
     """
